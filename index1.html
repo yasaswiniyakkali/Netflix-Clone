@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style07.css">
+    <title>Netflix login page</title>
+</head>
+<body>
+    <div class="survey">
+        <h1 id="title">Net<span>Flix</span></h1>
+        <p id="description">Thank you for signing up at Netflix.Tell us more about your self.</p>
+        <form id="survey-form">
+          <div class="form-inner">
+            <div class="space">
+              <label for="name" id="name-label">Name</label><br>
+              <input type="text" placeholder="enter your name" id="name" required>
+            </div>
+            <div class="space">
+              <label for="email" id="email-label">Email</label><br>
+              <input type="email" placeholder="enter your email" id="email" class="input" required>
+            </div>
+             <div class="space">
+              <label for="number" id="number-label">Age</label><br>
+              <input type="number" placeholder="age" id="number" min="18" max="65" required>
+            </div>
+            <div class="space">
+              <label id="dropdown-label">Content type</label><br>
+              <select id="dropdown">
+                <option value="avengers">movie</option>
+                <option value="strangerthings">series</option>
+              </select></br>
+                </div>
+          <div class="space">
+          <form-group>
+            <label id="select-label">Movie type:</label></br>
+          </div>
+        <label>
+          <div class="space-se">
+            <input type="checkbox" id="first-check" name="movie1" value="comedy">comedy</br>
+          
+          </div>
+        </label>
+       <label>
+          <div class="space-se">
+            <input type="checkbox" id="second-check" name="movie2" value="comedy">action</br>
+          
+          </div>
+        </label>
+       <label>
+          <div class="space-se">
+            <input type="checkbox" id="third-check" name="movie3" value="comedy">romance</br>
+          
+          </div>
+        </label>
+          </form-group>
+      <div class="space-se">
+      <label id="g-label">Gender</label></br>
+      <label for="g1">
+      <input type="radio" id="g1" name="fm" value="male">Male</label><br>
+        <label for="g2">
+      <input type="radio" id="g2" name="fm" value="female">Female</label>
+      </div>
+      <div class="space">
+        <label id="feed-label">Feedback</label></br>
+      </div>
+      <div class="space-sect">
+        <textarea class="text-area" placeholder="any comment"></textarea></br>
+      </div>
+      
+          </div>
+      <input type="submit" id="submit">   
+        </form>
+      </div>
+</body>
+</html>
